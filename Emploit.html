@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emploit - Info LMD S4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header>
+        <div class="header-inner">
+          <div class="brand">
+            <div class="brand-mark" aria-hidden="true"></div>
+            <div class="brand-text">
+              <div class="brand-title">Info LMD S4</div>
+              <div class="brand-sub">Student helper</div>
+            </div>
+          </div>
+
+          <div class="header-main">
+            <div class="search-wrapper">
+              <div class="search-pill" role="search">
+                <div class="search-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="11" cy="11" r="5.2" />
+                    <line x1="15.2" y1="15.2" x2="19" y2="19" />
+                  </svg>
+                </div>
+                <input
+                  class="search-input"
+                  type="search"
+                  placeholder="Search modules, emails, schedules..."
+                  aria-label="Search"
+                />
+                <button class="search-cta" type="button">
+                  Quick search
+                  <span>/</span>
+                </button>
+              </div>
+            </div>
+
+            <nav aria-label="Primary">
+              <a class="nav-link" href="modules.html">Modules</a>
+              <a class="nav-link" href="calculator.html">Calculator</a>
+              <button class="nav-link" type="button">P-emails</button>
+              <a class="nav-link" href="Emploit.html">Emploit</a>
+            </nav>
+
+            <button
+              class="hamburger"
+              type="button"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+            >
+              <div class="hamburger-lines" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+
+      <main>
+        <div
+          class="empty-frame"
+          style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px; padding:30px;"
+        >
+          <h2 style="font-weight:600;">Emploit du Temps</h2>
+
+          <a
+            href="https://drive.google.com/file/d/1FIsc63M4KCy8xEc5dpAm4MU3_G71DJmv/view"
+            target="_blank"
+            class="nav-link"
+            style="padding:10px 20px; font-size:0.9rem;"
+          >
+            Open Schedule in Google Drive
+          </a>
+        </div>
+      </main>
+    </div>
+
+    <div class="mobile-menu-backdrop" aria-hidden="true">
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <div class="mobile-menu-title">Quick access</div>
+          <button
+            class="mobile-menu-close"
+            type="button"
+            aria-label="Close navigation menu"
+          >
+            ×
+          </button>
+        </div>
+        <div class="mobile-nav-list">
+          <a class="mobile-nav-link" href="modules.html">
+            <span>Modules</span>
+            <small>All semester modules</small>
+          </a>
+          <a class="mobile-nav-link" href="calculator.html">
+            <span>Calculator</span>
+            <small>GPA & grades</small>
+          </a>
+          <button class="mobile-nav-link" type="button">
+            <span>P-emails</span>
+            <small>Professors contacts</small>
+          </button>
+          <a class="mobile-nav-link" href="Emploit.html">
+            <span>Emploit</span>
+            <small>Schedule & planning</small>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-text">Simple project to help students.</div>
+        <div class="footer-badge">S4</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
